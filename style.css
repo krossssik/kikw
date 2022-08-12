@@ -838,6 +838,21 @@ textarea {
     height: 55px;
 }
 
+.button:hover{
+        cursor: pointer;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear
+        tansition: all .3s linear;
+        background-color: #1d2f46
+}
+.form__button:hover{
+    cursor: pointer;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear
+    tansition: all .3s linear;
+    background-color: #1d2f46
+}
+
 
 @media screen and ( max-width: 768px) {
     .contacts__form-name {
